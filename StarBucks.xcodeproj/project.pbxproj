@@ -14,6 +14,33 @@
 		E606E150291A6F9D00981FCC /* StarBucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E14F291A6F9D00981FCC /* StarBucksTests.swift */; };
 		E606E15A291A6F9D00981FCC /* StarBucksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E159291A6F9D00981FCC /* StarBucksUITests.swift */; };
 		E606E15C291A6F9D00981FCC /* StarBucksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E15B291A6F9D00981FCC /* StarBucksUITestsLaunchTests.swift */; };
+		E606E170291A6FF000981FCC /* SignupItemsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E16B291A6FF000981FCC /* SignupItemsGroupView.swift */; };
+		E606E171291A6FF000981FCC /* SignupLongItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E16C291A6FF000981FCC /* SignupLongItemView.swift */; };
+		E606E172291A6FF000981FCC /* SwitchToLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E16D291A6FF000981FCC /* SwitchToLoginView.swift */; };
+		E606E173291A6FF000981FCC /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E16E291A6FF000981FCC /* SignUpTitleView.swift */; };
+		E606E174291A6FF000981FCC /* SignupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E16F291A6FF000981FCC /* SignupItemView.swift */; };
+		E606E187291A978A00981FCC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E186291A978A00981FCC /* LoginView.swift */; };
+		E606E189291A982200981FCC /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E188291A982200981FCC /* RegistrationView.swift */; };
+		E606E18B291A98C900981FCC /* AuthViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E18A291A98C900981FCC /* AuthViewModule.swift */; };
+		E606E18F291A9A2000981FCC /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E18E291A9A2000981FCC /* AuthHeaderView.swift */; };
+		E606E191291A9A6C00981FCC /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E190291A9A6C00981FCC /* RoundedShape.swift */; };
+		E606E193291A9AAE00981FCC /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E192291A9AAE00981FCC /* CustomInputField.swift */; };
+		E606E199291AA56000981FCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E606E198291AA56000981FCC /* GoogleService-Info.plist */; };
+		E606E19C291AA6D200981FCC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E606E19B291AA6D200981FCC /* FirebaseAuth */; };
+		E606E19E291AA6D200981FCC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E606E19D291AA6D200981FCC /* FirebaseFirestore */; };
+		E606E1A0291AA6D200981FCC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E606E19F291AA6D200981FCC /* FirebaseFirestoreSwift */; };
+		E606E1A2291AA6D200981FCC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E606E1A1291AA6D200981FCC /* FirebaseStorage */; };
+		E606E1A6291BA8EA00981FCC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1A5291BA8EA00981FCC /* MainTabView.swift */; };
+		E606E1AB291BA9DB00981FCC /* CoffeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1AA291BA9DB00981FCC /* CoffeMenuView.swift */; };
+		E606E1AE291BAB0300981FCC /* AllMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1AD291BAB0300981FCC /* AllMenuView.swift */; };
+		E606E1B1291BAB4700981FCC /* FavoritesCoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1B0291BAB4700981FCC /* FavoritesCoffeView.swift */; };
+		E606E1B4291BAB6F00981FCC /* SettingsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1B3291BAB6F00981FCC /* SettingsMenuView.swift */; };
+		E606E1B7291BD14F00981FCC /* Coffe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1B6291BD14F00981FCC /* Coffe.swift */; };
+		E606E1BC291BE8FD00981FCC /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1BB291BE8FD00981FCC /* ProductCard.swift */; };
+		E606E1BF291C0C0900981FCC /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1BE291C0C0900981FCC /* CartButton.swift */; };
+		E606E1C2291C117B00981FCC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1C1291C117B00981FCC /* CartView.swift */; };
+		E606E1C4291C138100981FCC /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1C3291C138100981FCC /* CartManager.swift */; };
+		E606E1C6291C19BD00981FCC /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606E1C5291C19BD00981FCC /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +71,29 @@
 		E606E155291A6F9D00981FCC /* StarBucksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarBucksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E606E159291A6F9D00981FCC /* StarBucksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksUITests.swift; sourceTree = "<group>"; };
 		E606E15B291A6F9D00981FCC /* StarBucksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E606E16B291A6FF000981FCC /* SignupItemsGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupItemsGroupView.swift; sourceTree = "<group>"; };
+		E606E16C291A6FF000981FCC /* SignupLongItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupLongItemView.swift; sourceTree = "<group>"; };
+		E606E16D291A6FF000981FCC /* SwitchToLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchToLoginView.swift; sourceTree = "<group>"; };
+		E606E16E291A6FF000981FCC /* SignUpTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTitleView.swift; sourceTree = "<group>"; };
+		E606E16F291A6FF000981FCC /* SignupItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupItemView.swift; sourceTree = "<group>"; };
+		E606E186291A978A00981FCC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E606E188291A982200981FCC /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		E606E18A291A98C900981FCC /* AuthViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModule.swift; sourceTree = "<group>"; };
+		E606E18E291A9A2000981FCC /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		E606E190291A9A6C00981FCC /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		E606E192291A9AAE00981FCC /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		E606E198291AA56000981FCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E606E1A5291BA8EA00981FCC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E606E1AA291BA9DB00981FCC /* CoffeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMenuView.swift; sourceTree = "<group>"; };
+		E606E1AD291BAB0300981FCC /* AllMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuView.swift; sourceTree = "<group>"; };
+		E606E1B0291BAB4700981FCC /* FavoritesCoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCoffeView.swift; sourceTree = "<group>"; };
+		E606E1B3291BAB6F00981FCC /* SettingsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenuView.swift; sourceTree = "<group>"; };
+		E606E1B6291BD14F00981FCC /* Coffe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffe.swift; sourceTree = "<group>"; };
+		E606E1BB291BE8FD00981FCC /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		E606E1BE291C0C0900981FCC /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		E606E1C1291C117B00981FCC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E606E1C3291C138100981FCC /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		E606E1C5291C19BD00981FCC /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E606E19C291AA6D200981FCC /* FirebaseAuth in Frameworks */,
+				E606E1A2291AA6D200981FCC /* FirebaseStorage in Frameworks */,
+				E606E19E291AA6D200981FCC /* FirebaseFirestore in Frameworks */,
+				E606E1A0291AA6D200981FCC /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +148,16 @@
 		E606E13D291A6F9C00981FCC /* StarBucks */ = {
 			isa = PBXGroup;
 			children = (
+				E606E1A3291BA8B400981FCC /* Core */,
+				E606E18C291A99CD00981FCC /* Components */,
+				E606E183291A96C600981FCC /* Authentication */,
+				E606E169291A6FF000981FCC /* View */,
 				E606E13E291A6F9C00981FCC /* StarBucksApp.swift */,
 				E606E140291A6F9C00981FCC /* ContentView.swift */,
 				E606E142291A6F9D00981FCC /* Assets.xcassets */,
+				E606E198291AA56000981FCC /* GoogleService-Info.plist */,
 				E606E144291A6F9D00981FCC /* Preview Content */,
+				E606E1C3291C138100981FCC /* CartManager.swift */,
 			);
 			path = StarBucks;
 			sourceTree = "<group>";
@@ -127,6 +187,151 @@
 			path = StarBucksUITests;
 			sourceTree = "<group>";
 		};
+		E606E169291A6FF000981FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E606E16A291A6FF000981FCC /* SignUp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E606E16A291A6FF000981FCC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				E606E16B291A6FF000981FCC /* SignupItemsGroupView.swift */,
+				E606E16C291A6FF000981FCC /* SignupLongItemView.swift */,
+				E606E16D291A6FF000981FCC /* SwitchToLoginView.swift */,
+				E606E16E291A6FF000981FCC /* SignUpTitleView.swift */,
+				E606E16F291A6FF000981FCC /* SignupItemView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		E606E183291A96C600981FCC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E606E184291A96DF00981FCC /* ViewModel */,
+				E606E185291A96F900981FCC /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E606E184291A96DF00981FCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E606E18A291A98C900981FCC /* AuthViewModule.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E606E185291A96F900981FCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E606E186291A978A00981FCC /* LoginView.swift */,
+				E606E188291A982200981FCC /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E606E18C291A99CD00981FCC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E606E18D291A99F400981FCC /* Authentication */,
+				E606E190291A9A6C00981FCC /* RoundedShape.swift */,
+				E606E192291A9AAE00981FCC /* CustomInputField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E606E18D291A99F400981FCC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E606E18E291A9A2000981FCC /* AuthHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E606E1A3291BA8B400981FCC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1BD291C0BC600981FCC /* Basket */,
+				E606E1B5291BD12900981FCC /* Models */,
+				E606E1B2291BAB5100981FCC /* Settings */,
+				E606E1AF291BAB1F00981FCC /* Favorites */,
+				E606E1AC291BAAEB00981FCC /* Menu */,
+				E606E1A7291BA94100981FCC /* Coffe */,
+				E606E1A4291BA8CB00981FCC /* MainTab */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E606E1A4291BA8CB00981FCC /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1A5291BA8EA00981FCC /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		E606E1A7291BA94100981FCC /* Coffe */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1AA291BA9DB00981FCC /* CoffeMenuView.swift */,
+				E606E1C1291C117B00981FCC /* CartView.swift */,
+			);
+			path = Coffe;
+			sourceTree = "<group>";
+		};
+		E606E1AC291BAAEB00981FCC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1BA291BE8CF00981FCC /* Product */,
+				E606E1AD291BAB0300981FCC /* AllMenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E606E1AF291BAB1F00981FCC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1B0291BAB4700981FCC /* FavoritesCoffeView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		E606E1B2291BAB5100981FCC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1B3291BAB6F00981FCC /* SettingsMenuView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E606E1B5291BD12900981FCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1B6291BD14F00981FCC /* Coffe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E606E1BA291BE8CF00981FCC /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1BB291BE8FD00981FCC /* ProductCard.swift */,
+				E606E1C5291C19BD00981FCC /* ProductRow.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		E606E1BD291C0BC600981FCC /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				E606E1BE291C0C0900981FCC /* CartButton.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +348,12 @@
 			dependencies = (
 			);
 			name = StarBucks;
+			packageProductDependencies = (
+				E606E19B291AA6D200981FCC /* FirebaseAuth */,
+				E606E19D291AA6D200981FCC /* FirebaseFirestore */,
+				E606E19F291AA6D200981FCC /* FirebaseFirestoreSwift */,
+				E606E1A1291AA6D200981FCC /* FirebaseStorage */,
+			);
 			productName = StarBucks;
 			productReference = E606E13B291A6F9C00981FCC /* StarBucks.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +426,9 @@
 				Base,
 			);
 			mainGroup = E606E132291A6F9C00981FCC;
+			packageReferences = (
+				E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E606E13C291A6F9C00981FCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +447,7 @@
 			files = (
 				E606E146291A6F9D00981FCC /* Preview Assets.xcassets in Resources */,
 				E606E143291A6F9D00981FCC /* Assets.xcassets in Resources */,
+				E606E199291AA56000981FCC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +472,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E606E174291A6FF000981FCC /* SignupItemView.swift in Sources */,
+				E606E1AB291BA9DB00981FCC /* CoffeMenuView.swift in Sources */,
 				E606E141291A6F9C00981FCC /* ContentView.swift in Sources */,
+				E606E1BC291BE8FD00981FCC /* ProductCard.swift in Sources */,
+				E606E18B291A98C900981FCC /* AuthViewModule.swift in Sources */,
+				E606E1BF291C0C0900981FCC /* CartButton.swift in Sources */,
+				E606E1C2291C117B00981FCC /* CartView.swift in Sources */,
+				E606E18F291A9A2000981FCC /* AuthHeaderView.swift in Sources */,
+				E606E1B1291BAB4700981FCC /* FavoritesCoffeView.swift in Sources */,
+				E606E1B7291BD14F00981FCC /* Coffe.swift in Sources */,
+				E606E1C4291C138100981FCC /* CartManager.swift in Sources */,
+				E606E1AE291BAB0300981FCC /* AllMenuView.swift in Sources */,
+				E606E173291A6FF000981FCC /* SignUpTitleView.swift in Sources */,
+				E606E189291A982200981FCC /* RegistrationView.swift in Sources */,
 				E606E13F291A6F9C00981FCC /* StarBucksApp.swift in Sources */,
+				E606E170291A6FF000981FCC /* SignupItemsGroupView.swift in Sources */,
+				E606E172291A6FF000981FCC /* SwitchToLoginView.swift in Sources */,
+				E606E1B4291BAB6F00981FCC /* SettingsMenuView.swift in Sources */,
+				E606E187291A978A00981FCC /* LoginView.swift in Sources */,
+				E606E171291A6FF000981FCC /* SignupLongItemView.swift in Sources */,
+				E606E1C6291C19BD00981FCC /* ProductRow.swift in Sources */,
+				E606E1A6291BA8EA00981FCC /* MainTabView.swift in Sources */,
+				E606E191291A9A6C00981FCC /* RoundedShape.swift in Sources */,
+				E606E193291A9AAE00981FCC /* CustomInputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +656,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StarBucks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarBucks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,11 +686,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StarBucks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarBucks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,6 +818,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E606E19B291AA6D200981FCC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E606E19D291AA6D200981FCC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E606E19F291AA6D200981FCC /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E606E1A1291AA6D200981FCC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E606E19A291AA6D200981FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E606E133291A6F9C00981FCC /* Project object */;
 }

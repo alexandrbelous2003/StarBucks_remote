@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>273447503393-ib2t6aovcoetr89gldub3ceusu64o2mt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.273447503393-ib2t6aovcoetr89gldub3ceusu64o2mt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAd6bBP0P-5au-J3IafooL4AxTNF1d-CeU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>273447503393</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>User.StarBucks</string>
+	<key>PROJECT_ID</key>
+	<string>starbucks-bc735</string>
+	<key>STORAGE_BUCKET</key>
+	<string>starbucks-bc735.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:273447503393:ios:fc762f661844e9e242c560</string>
+</dict>
+</plist>

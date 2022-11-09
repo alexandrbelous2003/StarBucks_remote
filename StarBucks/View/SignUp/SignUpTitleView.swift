@@ -1,0 +1,31 @@
+//
+//  SignUpTitleView.swift
+//  appCoffe
+//
+//  Created by Александр Белоус on 08.11.2022.
+//
+
+import SwiftUI
+
+struct SignUpTitleView: View {
+    // MARK: PROPERTIES
+    let title: String
+    
+    //MARK: - BODY
+    var body: some View {
+        HStack(alignment: .firstTextBaseline, spacing: 0) {
+            Text(title)
+                .font(.body)
+                .padding(.horizontal, 10)
+        }
+
+    }
+}
+
+struct SignUpTitleView_Previews: PreviewProvider {
+    static var previews: some View {
+        SignUpTitleView(title: "Get Started!")
+            .previewLayout(.sizeThatFits)
+            .padding()
+    }
+}
